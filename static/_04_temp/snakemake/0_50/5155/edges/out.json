@@ -1,0 +1,1 @@
+{"edges": [{"a": "living_room_0", "b": "kitchen_1", "conn": "Passage"}, {"a": "living_room_0", "b": "balcony_3", "conn": "Door"}, {"a": "living_room_0", "b": "balcony_4", "conn": "Door"}, {"a": "kitchen_1", "b": "bathroom_2", "conn": "Door"}]}

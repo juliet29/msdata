@@ -1,0 +1,116 @@
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'living_room_0'} | Resolving         
+         non-ortho on living_room_0                                                                   
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0, 0.551828399212587, 0> | result: <0.0, 0.551828399212587, 0.0>                            
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0.4886425621836348, 0, 0> | result: <0.4886425621836348, 0.0, 0.0>                          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0, -8.091541556343174e-05, 0> | result: <0.0, -8.091541556343174e-05, 0.0>                  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0.12254212434711453, 0, 0> | result: <0.12254212434711453, 0.0, 0.0>                        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0, 3.3805154518823306, 0> | result: <0.0, 3.3805154518823306, 0.0>                          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <-0.08825388718072213, 0, 0> | result: <-0.08825388718072213, 0.0, 0.0>                      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <-0.002036179586505815, 2.436294137146598, 0> | result: <0.0, 2.436294137146598, 0.0>        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <3.355903735247877, 0.01720618803937013, 0> | result: <3.355903735247877, 0.0, 0.0>          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0, -2.835871684892278, 0> | result: <0.0, -2.835871684892278, 0.0>                          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0.19812268440385683, 0, 0> | result: <0.19812268440385683, 0.0, 0.0>                        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0, 0.018960310852071505, 0> | result: <0.0, 0.018960310852071505, 0.0>                      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0.039134590517442724, -0.0006415644764192763, 0> | result: <0.039134590517442724, 0.0, 0.0> 
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0, -1.9964727080101978, 0> | result: <0.0, -1.9964727080101978, 0.0>                        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <-0.2513548156079102, 0, 0> | result: <-0.2513548156079102, 0.0, 0.0>                        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0, -1.5882354995909198, 0> | result: <0.0, -1.5882354995909198, 0.0>                        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <-3.4469154661148402, 0, 0> | result: <-3.4469154661148402, 0.0, 0.0>                        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <0, 0.016497885252412914, 0> | result: <0.0, 0.016497885252412914, 0.0>                      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_0'} | vector to align: 
+         <-0.41578534820994517, 0, 0> | result: <-0.41578534820994517, 0.0, 0.0>                      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:19 | {'name': 'living_room_0'} | Finished resolving
+         non-ortho on living_room_0                                                                   
+                                                                                                      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'kitchen_1'} | Resolving non-ortho on
+         kitchen_1                                                                                    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align: <0, 
+         1.8827890201827193, 0> | result: <0.0, 1.8827890201827193, 0.0>                              
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align:     
+         <2.2190389310596226, 0, 0> | result: <2.2190389310596226, 0.0, 0.0>                          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align: <0, 
+         0.02874296931725917, 0> | result: <0.0, 0.02874296931725917, 0.0>                            
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align:     
+         <0.00214183602461282, 0, 0> | result: <0.00214183602461282, 0.0, 0.0>                        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align: <0, 
+         1.1075315868557603, 0> | result: <0.0, 1.1075315868557603, 0.0>                              
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align:     
+         <0.33767968691868533, 0.0017313310060633746, 0> | result: <0.33767968691868533, 0.0, 0.0>    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align:     
+         <0.0020361331689520146, -2.436238598424587, 0> | result: <0.0, -2.436238598424587, 0.0>      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align:     
+         <-0.023455889936916385, 0, 0> | result: <-0.023455889936916385, 0.0, 0.0>                    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align: <0, 
+         -0.5845563089372177, 0> | result: <0.0, -0.5845563089372177, 0.0>                            
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'kitchen_1'} | vector to align:     
+         <-2.537440697234956, 0, 0> | result: <-2.537440697234956, 0.0, 0.0>                          
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:19 | {'name': 'kitchen_1'} | Finished resolving    
+         non-ortho on kitchen_1                                                                       
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'bathroom_2'} | No non-ortho on      
+         bathroom_2                                                                                   
+                                                                                                      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'balcony_3'} | Resolving non-ortho on
+         balcony_3                                                                                    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align: <0, 
+         2.597575762446855, 0> | result: <0.0, 2.597575762446855, 0.0>                                
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align:     
+         <0.7238285306044698, 0.003711170161120325, 0> | result: <0.7238285306044698, 0.0, 0.0>       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align: <0, 
+         -0.09316448166523728, 0> | result: <0.0, -0.09316448166523728, 0.0>                          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align:     
+         <0.009479261280217699, 0, 0> | result: <0.009479261280217699, 0.0, 0.0>                      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align:     
+         <-8.784976927245225e-05, -0.005358720555501684, 0> | result: <0.0, -0.005358720555501684,    
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align:     
+         <0.8658402879852556, -0.014194408672204784, 0> | result: <0.8658402879852556, 0.0, 0.0>      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align: <0, 
+         -2.457323160436395, 0> | result: <0.0, -2.457323160436395, 0.0>                              
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align:     
+         <-0.837179850850208, 0.013724555325041354, 0> | result: <-0.837179850850208, 0.0, 0.0>       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align:     
+         <-0.0020718455179675743, -0.12637985571395927, 0> | result: <0.0, -0.12637985571395927, 0.0> 
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align:     
+         <-0.28373667400832225, 0.004651521027670746, 0> | result: <-0.28373667400832225, 0.0, 0.0>   
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align: <0, 
+         0.09195358388146557, 0> | result: <0.0, 0.09195358388146557, 0.0>                            
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align:     
+         <-0.43693726920016207, 0, 0> | result: <-0.43693726920016207, 0.0, 0.0>                      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align: <0, 
+         -0.01583753027460233, 0> | result: <0.0, -0.01583753027460233, 0.0>                          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_3'} | vector to align:     
+         <-0.039134590517441836, 0.0006415644764201645, 0> | result: <-0.039134590517441836, 0.0, 0.0>
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:19 | {'name': 'balcony_3'} | Finished resolving    
+         non-ortho on balcony_3                                                                       
+                                                                                                      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'balcony_4'} | Resolving non-ortho on
+         balcony_4                                                                                    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_4'} | vector to align:     
+         <0.3065033798393335, -0.0050247537487257965, 0> | result: <0.3065033798393335, 0.0, 0.0>     
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_4'} | vector to align:     
+         <0.001431600808126099, -1.7908010275076482, 0> | result: <0.0, -1.7908010275076482, 0.0>     
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_4'} | vector to align:     
+         <-0.30793498064745695, 0.005048223119702655, 0> | result: <-0.30793498064745695, 0.0, 0.0>   
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_4'} | vector to align: <0, 
+         1.7907775581366714, 0> | result: <0.0, 1.7907775581366714, 0.0>                              
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:19 | {'name': 'balcony_4'} | Finished resolving    
+         non-ortho on balcony_4                                                                       
+                                                                                                      

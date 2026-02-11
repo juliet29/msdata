@@ -1,0 +1,30 @@
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'bathroom_0'} | No non-ortho on      
+         bathroom_0                                                                                   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'kitchen_1'} | No non-ortho on       
+         kitchen_1                                                                                    
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'corridor_2'} | No non-ortho on      
+         corridor_2                                                                                   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'room_3'} | No non-ortho on room_3   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'shaft_4'} | No non-ortho on shaft_4 
+                                                                                                      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'balcony_5'} | Resolving non-ortho on
+         balcony_5                                                                                    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_5'} | vector to align:     
+         <3.005957404004831, 0, 0> | result: <3.005957404004831, 0.0, 0.0>                            
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_5'} | vector to align:     
+         <-0.09488371378474691, -1.165614412097959, 0> | result: <0.0, -1.165614412097959, 0.0>       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_5'} | vector to align:     
+         <-2.7885875106544002, 0.00047913656329789944, 0> | result: <-2.7885875106544002, 0.0, 0.0>   
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_5'} | vector to align:     
+         <-0.12248617956568353, 1.165135275534663, 0> | result: <0.0, 1.165135275534663, 0.0>         
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:19 | {'name': 'balcony_5'} | Finished resolving    
+         non-ortho on balcony_5                                                                       
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'room_6'} | No non-ortho on room_6   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'shaft_7'} | No non-ortho on shaft_7 
+                                                                                                      

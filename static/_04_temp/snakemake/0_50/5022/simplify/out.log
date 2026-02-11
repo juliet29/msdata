@@ -1,0 +1,211 @@
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5022, room_0) 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5022,     
+         room_0). Ending iteration...                                                                 
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5022, shaft_1)
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5022,     
+         shaft_1). Ending iteration...                                                                
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5022,         
+         corridor_2)                                                                                  
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5022,    
+         corridor_2)                                                                                  
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'corridor_2-south_3',            
+         'corridor_2-east_1'}, {'corridor_2-west_1', 'corridor_2-north_0', 'corridor_2-south_0'},     
+         {'corridor_2-east_3'}]                                                                       
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['corridor_2-east_1',            
+         'corridor_2-south_3']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('corridor_2-east_1',           
+         'corridor_2-south_3')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['corridor_2-south_3', 'corridor_2-east_1'],                               
+             'ordered': ['corridor_2-east_1', 'corridor_2-south_3']                                   
+         }                                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['corridor_2-north_0',           
+         'corridor_2-south_0', 'corridor_2-west_1']                                                   
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:146 | {} | [['corridor_2-south_0',          
+         'corridor_2-west_1', 'corridor_2-north_0']]                                                  
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': [                                                                          
+                 'corridor_2-west_1',                                                                 
+                 'corridor_2-north_0',                                                                
+                 'corridor_2-south_0'                                                                 
+             ],                                                                                       
+             'ordered': [                                                                             
+                 'corridor_2-south_0',                                                                
+                 'corridor_2-west_1',                                                                 
+                 'corridor_2-north_0'                                                                 
+             ]                                                                                        
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:are_vectors_correct:228 | {} | False                             
+DEBUG    🐞:polymap.bends.interfaces:are_vectors_correct:229 | {} | True                              
+DEBUG    🐞:polymap.bends.interfaces:are_vectors_correct:230 | {} | {                                 
+             'a': 'corridor_2-east_2 | <0, -1, 0> | False |  PairedCoord[(-13.91, 1.72), (-13.91,     
+         -0.23)] ',                                                                                   
+             's1': 'corridor_2-east_1 | <0, -1, 0> | True |  PairedCoord[(-13.91, -0.23), (-13.91,    
+         -0.24)] ',                                                                                   
+             's2': 'corridor_2-south_3 | <-1, 0, 0> | True |  PairedCoord[(-13.91, -0.24), (-13.91,   
+         -0.24)] ',                                                                                   
+             'b': 'corridor_2-east_0 | <0, -1, 0> | False |  PairedCoord[(-13.91, -0.24), (-13.91,    
+         -0.68)] '                                                                                    
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 1, 'pass': 1},                                                          
+             'kappa2s': {'size': 1, 'pass': 0},                                                       
+             'pis': {'size': 1, 'pass': 1},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.PiThree'>(['corridor_2-west_0', 'corridor_2-south_0',              
+         'corridor_2-west_1', 'corridor_2-north_0', 'corridor_2-west_2'])                             
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['corridor_2-east_2', 'corridor_2-east_1']                                                   
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'corridor_2-east_2'},            
+         {'corridor_2-west_1', 'corridor_2-south_0'}, {'corridor_2-south_3'}]                         
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['corridor_2-south_0',           
+         'corridor_2-west_1']                                                                         
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('corridor_2-south_0',          
+         'corridor_2-west_1')]                                                                        
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['corridor_2-west_1', 'corridor_2-south_0'],                               
+             'ordered': ['corridor_2-south_0', 'corridor_2-west_1']                                   
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:are_vectors_correct:228 | {} | True                              
+DEBUG    🐞:polymap.bends.interfaces:are_vectors_correct:229 | {} | False                             
+DEBUG    🐞:polymap.bends.interfaces:are_vectors_correct:230 | {} | {                                 
+             'a': 'corridor_2-west_0 | <0, 1, 0> | False |  PairedCoord[(-15.85, -0.68), (-15.85,     
+         1.93)] ',                                                                                    
+             's1': 'corridor_2-south_0 | <-1, 0, 0> | True |  PairedCoord[(-15.85, 1.93), (-15.86,    
+         1.93)] ',                                                                                    
+             's2': 'corridor_2-west_1 | <0, 1, 0> | True |  PairedCoord[(-15.86, 1.93), (-15.86,      
+         1.99)] ',                                                                                    
+             'b': 'corridor_2-west_2 | <0, 1, 0> | False |  PairedCoord[(-15.86, 1.99), (-15.86,      
+         3.33)] '                                                                                     
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 0},                                                       
+             'pis': {'size': 1, 'pass': 1},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['corridor_2-west_0', 'corridor_2-south_0',             
+         'corridor_2-west_1', 'corridor_2-west_2'])                                                   
+ERROR    ❌:polymap.geometry.modify.validate:message:37 | {} | corridor_2 is invalid! Reason:         
+         Non-ortho vector near PairedCoord[(-15.85, 1.99), (-15.86, 3.33)]: v=<-0.007014266907273026, 
+         1.334301537962558, 0>                                                                        
+WARNING  ⚠️:polymap.bends.errors:show_message:41 | {} | Invalid Move for 5022-corridor_2               
+WARNING  ⚠️:polymap.bends.errors:show_message:42 | {} | Non-ortho vector near PairedCoord[(-15.85,     
+         1.99), (-15.86, 3.33)]: v=<-0.007014266907273026, 1.334301537962558, 0>                      
+DEBUG    🐞:polymap.bends.interfaces:are_vectors_correct:228 | {} | True                              
+DEBUG    🐞:polymap.bends.interfaces:are_vectors_correct:229 | {} | False                             
+DEBUG    🐞:polymap.bends.interfaces:are_vectors_correct:230 | {} | {                                 
+             'a': 'corridor_2-west_0 | <0, 1, 0> | False |  PairedCoord[(-15.85, -0.68), (-15.85,     
+         1.93)] ',                                                                                    
+             's1': 'corridor_2-south_0 | <-1, 0, 0> | True |  PairedCoord[(-15.85, 1.93), (-15.86,    
+         1.93)] ',                                                                                    
+             's2': 'corridor_2-west_1 | <0, 1, 0> | True |  PairedCoord[(-15.86, 1.93), (-15.86,      
+         1.99)] ',                                                                                    
+             'b': 'corridor_2-west_2 | <0, 1, 0> | False |  PairedCoord[(-15.86, 1.99), (-15.86,      
+         3.33)] '                                                                                     
+         }                                                                                            
+WARNING  ⚠️:polymap.bends.errors:show_message:45 | {} | BendHolder: {                                  
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 0},                                                       
+             'pis': {'size': 1, 'pass': 1},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+WARNING  ⚠️:polymap.bends.errors:show_message:48 | {} | Current bend is <class                         
+         'polymap.bends.interfaces.KappaTwo'>(['corridor_2-west_0', 'corridor_2-south_0',             
+         'corridor_2-west_1', 'corridor_2-west_2'])                                                   
+WARNING  ⚠️:polymap.bends.errors:show_message:49 | {} | {                                              
+             'a': 'corridor_2-west_0 | <0, 1, 0> | False |  PairedCoord[(-15.85, -0.68), (-15.85,     
+         1.93)] ',                                                                                    
+             's1': 'corridor_2-south_0 | <-1, 0, 0> | True |  PairedCoord[(-15.85, 1.93), (-15.86,    
+         1.93)] ',                                                                                    
+             's2': 'corridor_2-west_1 | <0, 1, 0> | True |  PairedCoord[(-15.86, 1.93), (-15.86,      
+         1.99)] ',                                                                                    
+             'b': 'corridor_2-west_2 | <0, 1, 0> | False |  PairedCoord[(-15.86, 1.99), (-15.86,      
+         3.33)] '                                                                                     
+         }                                                                                            
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5022,         
+         dining_3)                                                                                    
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5022,    
+         dining_3)                                                                                    
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'dining_3-south_0',              
+         'dining_3-west_2'}, {'dining_3-west_0'}]                                                     
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['dining_3-west_2',              
+         'dining_3-south_0']                                                                          
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('dining_3-south_0',            
+         'dining_3-west_2')]                                                                          
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['dining_3-south_0', 'dining_3-west_2'],                                   
+             'ordered': ['dining_3-south_0', 'dining_3-west_2']                                       
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['dining_3-west_1', 'dining_3-south_0',                 
+         'dining_3-west_2', 'dining_3-north_0'])                                                      
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['dining_3-south_2', 'dining_3-south_1']                                                     
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'dining_3-west_0'},              
+         {'dining_3-west_2'}]                                                                         
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 1                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['dining_3-south_1', 'dining_3-west_0',                 
+         'dining_3-south_0'])                                                                         
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['dining_3-south_1', 'dining_3-south_0']                                                     
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'dining_3-west_1'}]              
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/bin/polymap", line 10, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/main.py", line 22, in main
+    app()
+    ~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/core.py", line 1869, in __call__
+    result = _run_maybe_async_command(command, bound, resolved_backend)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/_run.py", line 50, in _run_maybe_async_command
+    return command(*bound.args, **bound.kwargs)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/make/main.py", line 67, in simplify
+    layout, bad_doms = remove_bends_from_layout(in_layout, get_case_name(path))
+                       ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/bends/main.py", line 137, in remove_bends_from_layout
+    new_dom = remove_all_bends_from_domain(msd_dom)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/bends/main.py", line 88, in remove_all_bends_from_domain
+    move_details = remove_one_bend_from_domain(
+        domain, msd_domain.name.display_name
+    )
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/bends/main.py", line 23, in remove_one_bend_from_domain
+    current_bend = bend_holder.get_next_bend()
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/bends/interfaces.py", line 354, in get_next_bend
+    raise ProblemIdentifyingBend(
+    ...<2 lines>...
+    )
+polymap.bends.interfaces.ProblemIdentifyingBend: ('Bend holder is empty!', [['dining_3-west_1']])

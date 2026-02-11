@@ -1,0 +1,148 @@
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'bathroom_0'} | Resolving non-ortho  
+         on bathroom_0                                                                                
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'bathroom_0'} | vector to align:    
+         <0.20299385940443848, 1.2559584559069732, 0> | result: <0.0, 1.2559584559069732, 0.0>        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'bathroom_0'} | vector to align:    
+         <1.4349641733338316, -0.231925597763329, 0> | result: <1.4349641733338316, 0.0, 0.0>         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'bathroom_0'} | vector to align:    
+         <-0.20011005871407495, -1.2381158774524468, 0> | result: <0.0, -1.2381158774524468, 0.0>     
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'bathroom_0'} | vector to align:    
+         <-1.4378479740241952, 0.21408301930880258, 0> | result: <-1.4378479740241952, 0.0, 0.0>      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:19 | {'name': 'bathroom_0'} | Finished resolving   
+         non-ortho on bathroom_0                                                                      
+                                                                                                      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'corridor_1'} | Resolving non-ortho  
+         on corridor_1                                                                                
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.015224304111553622, 0.09419542807995773, 0> | result: <0.0, 0.09419542807995773, 0.0>     
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.5313961906309825, 0.47170861384002083, 0> | result: <0.5313961906309825, 0.0, 0.0>        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.004220047577550012, -0.0006820637582445332, 0> | result: <0.004220047577550012, 0.0, 0.0> 
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.3048952542924579, 1.886440180594684, 0> | result: <0.0, 1.886440180594684, 0.0>           
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.050060460146922114, -0.008091004890324438, 0> | result: <0.050060460146922114, 0.0, 0.0>  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.04898855972617433, 0.3031007736456073, 0> | result: <0.0, 0.3031007736456073, 0.0>        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <2.7902080522756996, -0.45096642998734415, 0> | result: <2.7902080522756996, 0.0, 0.0>       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.01015508887701122, -0.06283130821291527, 0> | result: <0.0, -0.06283130821291527, 0.0>   
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.0056108019651250896, -0.0009068439643833415, 0> | result: <0.0056108019651250896, 0.0,    
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.046415743216355665, -0.28718230862167315, 0> | result: <0.0, -0.28718230862167315, 0.0>  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.009777444311151906, 0.0015802761202006188, 0> | result: <-0.009777444311151906, 0.0, 0.0>
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.022442973916592, -0.13885859872283923, 0> | result: <0.0, -0.13885859872283923, 0.0>     
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.8505528632260189, -0.13747031800432064, 0> | result: <0.8505528632260189, 0.0, 0.0>       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.0763939852331662, -0.8013906505665803, 0> | result: <0.0, -0.8013906505665803, 0.0>      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.0023979621132730333, -0.0019069727158540495, 0> | result: <-0.0023979621132730333, 0.0,  
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.0019789576825848254, -0.0024884810921266265, 0> | result: <0.0, -0.0024884810921266265,   
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.0023833150723798213, -0.02500152872678507, 0> | result: <0.0, -0.02500152872678507, 0.0> 
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.024092093305584594, -0.002296621527744236, 0> | result: <0.024092093305584594, 0.0, 0.0>  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.23519259849263047, -0.29574777647249295, 0> | result: <0.0, -0.29574777647249295, 0.0>    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.045865336025261355, 0.0364742811904889, 0> | result: <0.045865336025261355, 0.0, 0.0>     
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <2.996541238902521, -0.3188184676263339, 0> | result: <2.996541238902521, 0.0, 0.0>          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.0656277370484748, -4.819020748104443, 0> | result: <0.0, -4.819020748104443, 0.0>         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-2.8560969704712615, 0.18180238649757907, 0> | result: <-2.8560969704712615, 0.0, 0.0>      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.047079437459065177, 0.7396131661897409, 0> | result: <0.0, 0.7396131661897409, 0.0>       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.005787312927138966, 0.0003683864071990506, 0> | result: <-0.005787312927138966, 0.0, 0.0>
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.11823384349920818, 1.8574416361127062, 0> | result: <0.0, 1.8574416361127062, 0.0>        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.01483396682382232, 0.0009442433494668556, 0> | result: <-0.01483396682382232, 0.0, 0.0>  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-1.0662496764917093, 1.0593049910582826, 0> | result: <-1.0662496764917093, 0.0, 0.0>       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.00026040800085425087, 0.0016111897749937487, 0> | result: <0.0, 0.0016111897749937487,    
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.0022478504262055665, 0.0003633080626459506, 0> | result: <-0.0022478504262055665, 0.0,   
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.0022094406824020307, 0.0021950501781313747, 0> | result: <-0.0022094406824020307, 0.0,   
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.0015733441875723786, -0.0015836588566735532, 0> | result: <0.0, -0.0015836588566735532,  
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-1.2781900783264817, 0.20658703783684007, 0> | result: <-1.2781900783264817, 0.0, 0.0>      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.0028579903653898064, -0.017682885466810516, 0> | result: <0.0, -0.017682885466810516,    
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.00874508899101456, 0.0033752538633027296, 0> | result: <-0.00874508899101456, 0.0, 0.0>  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.22909530851328652, -0.593572792303698, 0> | result: <0.0, -0.593572792303698, 0.0>       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-1.108007484053036, 0.17908133376474344, 0> | result: <-1.108007484053036, 0.0, 0.0>        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.05193872780548636, 0.7171765281627279, 0> | result: <0.0, 0.7171765281627279, 0.0>       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-0.014034635364612136, -0.00101640401969183, 0> | result: <-0.014034635364612136, 0.0, 0.0> 
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <0.0015954868508267772, 0.009871555757702266, 0> | result: <0.0, 0.009871555757702266, 0.0>  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'corridor_1'} | vector to align:    
+         <-1.3257892830501463, 0.21428024315425764, 0> | result: <-1.3257892830501463, 0.0, 0.0>      
+ERROR    ❌:polymap.geometry.modify.validate:message:37 | {'name': 'corridor_1'} | corridor_1 is      
+         invalid! Reason: NOT ORTHOGONAL                                                              
+ERROR    ❌:polymap.geometry.modify.validate:message:37 | {} | corridor_1 is invalid! Reason: NOT     
+         ORTHOGONAL                                                                                   
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/nonortho/main.py", line 16, in orthogonalize_dom
+    assert new_dom.is_orthogonal
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/make/main.py", line 52, in ortho
+    layout = orthogonalize_layout(in_layout)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/nonortho/main.py", line 28, in orthogonalize_layout
+    return Layout(list(new_doms))
+                  ~~~~^^^^^^^^^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/nonortho/main.py", line 27, in <lambda>
+    new_doms = map(lambda x: orthogonalize_dom(x), layout.domains)
+                             ~~~~~~~~~~~~~~~~~^^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/nonortho/main.py", line 18, in orthogonalize_dom
+    raise InvalidPolygonError(new_dom.polygon, dom.name, "NOT ORTHOGONAL")
+polymap.geometry.modify.validate.InvalidPolygonError: (<POLYGON ((-4.477 0.08, -3.93 0.08, -3.926 0.552, -3.926 2.437, -3.571 2.437...>, 'corridor_1', 'NOT ORTHOGONAL')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/bin/polymap", line 10, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/main.py", line 22, in main
+    app()
+    ~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/core.py", line 1869, in __call__
+    result = _run_maybe_async_command(command, bound, resolved_backend)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/_run.py", line 50, in _run_maybe_async_command
+    return command(*bound.args, **bound.kwargs)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/make/main.py", line 57, in ortho
+    raise RuntimeError(
+        "Could not orthogonalize the layout due to at least one polygon being non-orthogonalizable"
+    )
+RuntimeError: Could not orthogonalize the layout due to at least one polygon being non-orthogonalizable

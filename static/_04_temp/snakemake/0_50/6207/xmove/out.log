@@ -1,0 +1,133 @@
+INFO     ℹ️:polymap.layout.main.move:try_moves:122 | {} | roots=['room_6-east_0', 'kitchen_5-east_0',  
+         'corridor_7-east_1', 'bathroom_1-east_0', 'corridor_7-east_0', 'bathroom_3-east_0',          
+         'corridor_7-east_2', 'room_0-east_0', 'living_dining_2-east_1']                              
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_6-EAST_0.                                                                          
+         [                                                                                            
+             {('corridor_7-west_0', 'room_6-east_0'): -0.02400000000000002},                          
+             {('room_6-east_0', 'bathroom_1-west_0'): 0.12899999999999956}                            
+         ]                                                                                            
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_7-west_0 by                 
+         -0.02400000000000002 to room_6-east_0                                                        
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_7 has changed!           
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_6-east_0 by 0.12899999999999956 
+         to bathroom_1-west_0                                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_6 has changed!               
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:KITCHEN_5-EAST_0.                                                                       
+         [{('kitchen_5-east_0', 'corridor_7-west_0'): 0.13199999999999967}]                           
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving kitchen_5-east_0 by                  
+         0.13199999999999967 to corridor_7-west_0                                                     
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | kitchen_5 has changed!            
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:CORRIDOR_7-EAST_1.                                                                      
+         [{('corridor_7-east_1', 'living_dining_2-west_0'): 0.5720000000000001}]                      
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_7-east_1 by                 
+         0.5720000000000001 to living_dining_2-west_0                                                 
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_7 has changed!           
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:BATHROOM_1-EAST_0.                                                                      
+         [{('bathroom_1-east_0', 'bathroom_3-west_0'): 0.5090000000000003}]                           
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving bathroom_1-east_0 by                 
+         0.5090000000000003 to bathroom_3-west_0                                                      
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | bathroom_1 has changed!           
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:CORRIDOR_7-EAST_0.                                                                      
+         [{('corridor_7-east_0', 'living_dining_2-east_1'): 4.922}]                                   
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_7-east_0 by 4.922 to        
+         living_dining_2-east_1                                                                       
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_7 has changed!           
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:BATHROOM_3-EAST_0.                                                                      
+         [{('bathroom_3-east_0', 'room_0-west_0'): 0.17399999999999993}]                              
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving bathroom_3-east_0 by                 
+         0.17399999999999993 to room_0-west_0                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | bathroom_3 has changed!           
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:CORRIDOR_7-EAST_2.                                                                      
+         [{('corridor_7-east_2', 'room_0-west_0'): 0.16200000000000037}]                              
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_7-east_2 by                 
+         0.16200000000000037 to room_0-west_0                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_7 has changed!           
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_0-EAST_0.                                                                          
+         [{('room_0-east_0', 'balcony_4-west_0'): 0.28500000000000003}]                               
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_0-east_0 by 0.28500000000000003 
+         to balcony_4-west_0                                                                          
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_0 has changed!               
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:LIVING_DINING_2-EAST_1.                                                                 
+         [{('living_dining_2-east_1', 'balcony_4-west_0'): 0.28}]                                     
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving living_dining_2-east_1 by 0.28 to    
+         balcony_4-west_0                                                                             
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | living_dining_2 has changed!      
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['living_dining_2', 'corridor_7']                                                  
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between        
+         living_dining_2, corridor_7: 0.008391000000000317                                            
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/bin/polymap", line 10, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/main.py", line 22, in main
+    app()
+    ~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/core.py", line 1869, in __call__
+    result = _run_maybe_async_command(command, bound, resolved_backend)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/_run.py", line 50, in _run_maybe_async_command
+    return command(*bound.args, **bound.kwargs)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/make/main.py", line 94, in move
+    layout = try_moves(Gax)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/layout/main/move.py", line 141, in try_moves
+    validate_layout_overlaps(layout)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/geometry/modify/validate.py", line 161, in validate_layout_overlaps
+    raise InvalidLayoutError([a, b], "INTERSECTION", layout)
+polymap.geometry.modify.validate.InvalidLayoutError: ([FancyOrthoDomain(coords=[Coord(x=-5.771, y=-5.196), Coord(x=-5.771, y=0.327), Coord(x=-0.846, y=0.327), Coord(x=-0.846, y=-2.04), Coord(x=0.397, y=-2.04), Coord(x=0.397, y=-5.196), Coord(x=-5.771, y=-5.196)], name='living_dining_2'), FancyOrthoDomain(coords=[Coord(x=-7.583, y=-2.473), Coord(x=-7.583, y=2.065), Coord(x=-3.99, y=2.065), Coord(x=-3.99, y=0.509), Coord(x=-6.343, y=0.509), Coord(x=-6.343, y=0.324), Coord(x=-5.768, y=0.324), Coord(x=-5.768, y=-2.473), Coord(x=-7.583, y=-2.473)], name='corridor_7')], 'INTERSECTION', Layout(domains=[FancyOrthoDomain(coords=[Coord(x=-3.828, y=0.525), Coord(x=-3.828, y=4.415), Coord(x=0.379, y=4.415), Coord(x=0.379, y=1.237), Coord(x=-0.851, y=1.237), Coord(x=-0.851, y=0.525), Coord(x=-3.828, y=0.525)], name='room_0'), FancyOrthoDomain(coords=[Coord(x=-7.607, y=2.196), Coord(x=-7.607, y=4.415), Coord(x=-6.121, y=4.415), Coord(x=-6.121, y=2.196), Coord(x=-7.607, y=2.196)], name='bathroom_1'), FancyOrthoDomain(coords=[Coord(x=-5.771, y=-5.196), Coord(x=-5.771, y=0.327), Coord(x=-0.846, y=0.327), Coord(x=-0.846, y=-2.04), Coord(x=0.397, y=-2.04), Coord(x=0.397, y=-5.196), Coord(x=-5.771, y=-5.196)], name='living_dining_2'), FancyOrthoDomain(coords=[Coord(x=-5.612, y=2.207), Coord(x=-5.612, y=4.415), Coord(x=-4.002, y=4.415), Coord(x=-4.002, y=2.207), Coord(x=-5.612, y=2.207)], name='bathroom_3'), FancyOrthoDomain(coords=[Coord(x=-0.566, y=-1.8), Coord(x=-0.566, y=0.96), Coord(x=1.971, y=0.96), Coord(x=1.971, y=-1.8), Coord(x=-0.566, y=-1.8)], name='balcony_4'), FancyOrthoDomain(coords=[Coord(x=-11.269, y=-2.47), Coord(x=-11.269, y=0.333), Coord(x=-7.715, y=0.333), Coord(x=-7.715, y=-2.47), Coord(x=-11.269, y=-2.47)], name='kitchen_5'), FancyOrthoDomain(coords=[Coord(x=-11.276, y=0.541), Coord(x=-11.276, y=4.401), Coord(x=-7.736, y=4.401), Coord(x=-7.736, y=0.541), Coord(x=-11.276, y=0.541)], name='room_6'), FancyOrthoDomain(coords=[Coord(x=-7.583, y=-2.473), Coord(x=-7.583, y=2.065), Coord(x=-3.99, y=2.065), Coord(x=-3.99, y=0.509), Coord(x=-6.343, y=0.509), Coord(x=-6.343, y=0.324), Coord(x=-5.768, y=0.324), Coord(x=-5.768, y=-2.473), Coord(x=-7.583, y=-2.473)], name='corridor_7')]))

@@ -1,0 +1,96 @@
+INFO     ℹ️:polymap.layout.main.move:try_moves:122 | {} | roots=['kitchen_4-east_0',                   
+         'bathroom_10-east_1', 'dining_6-east_1', 'bathroom_10-east_0', 'room_3-east_0',              
+         'shaft_8-east_0', 'storeroom_1-east_0', 'corridor_7-east_0', 'corridor_0-east_0',            
+         'room_9-east_0']                                                                             
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:KITCHEN_4-EAST_0.                                                                       
+         [{('kitchen_4-east_0', 'bathroom_10-west_0'): 0.121}]                                        
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving kitchen_4-east_0 by 0.121 to         
+         bathroom_10-west_0                                                                           
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | kitchen_4 has changed!            
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:BATHROOM_10-EAST_1.                                                                     
+         [{('bathroom_10-east_1', 'corridor_0-west_0'): 0.9870000000000001}]                          
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving bathroom_10-east_1 by                
+         0.9870000000000001 to corridor_0-west_0                                                      
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | bathroom_10 has changed!          
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:DINING_6-EAST_1.                                                                        
+         [{('dining_6-east_1', 'corridor_0-west_1'): 0.01200000000000001}]                            
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving dining_6-east_1 by                   
+         0.01200000000000001 to corridor_0-west_1                                                     
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | dining_6 has changed!             
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:BATHROOM_10-EAST_0.                                                                     
+         [{('bathroom_10-east_0', 'corridor_0-west_0'): 0.13500000000000023}]                         
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving bathroom_10-east_0 by                
+         0.13500000000000023 to corridor_0-west_0                                                     
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | bathroom_10 has changed!          
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_3-EAST_0.                                                                          
+         [{('room_3-east_0', 'corridor_7-west_0'): 0.13500000000000023}]                              
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_3-east_0 by 0.13500000000000023 
+         to corridor_7-west_0                                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_3 has changed!               
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:SHAFT_8-EAST_0.                                                                         
+         [{('shaft_8-east_0', 'corridor_7-west_0'): 0.13500000000000023}]                             
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving shaft_8-east_0 by 0.13500000000000023
+         to corridor_7-west_0                                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | shaft_8 has changed!              
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:STOREROOM_1-EAST_0.                                                                     
+         [{('storeroom_1-east_0', 'room_9-west_0'): 0.13100000000000023}]                             
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving storeroom_1-east_0 by                
+         0.13100000000000023 to room_9-west_0                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | storeroom_1 has changed!          
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:CORRIDOR_7-EAST_0.                                                                      
+         [{('corridor_7-east_0', 'room_9-west_0'): 0.13100000000000023}]                              
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_7-east_0 by                 
+         0.13100000000000023 to room_9-west_0                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_7 has changed!           
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:CORRIDOR_0-EAST_0.                                                                      
+         [{('corridor_0-east_0', 'living_room_5-west_0'): 0.011999999999999567}]                      
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_0-east_0 by                 
+         0.011999999999999567 to living_room_5-west_0                                                 
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_0 has changed!           
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_9-EAST_0.                                                                          
+         [{('room_9-east_0', 'balcony_2-west_0'): 0.3390000000000004}]                                
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_9-east_0 by 0.3390000000000004  
+         to balcony_2-west_0                                                                          
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_9 has changed!               
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       

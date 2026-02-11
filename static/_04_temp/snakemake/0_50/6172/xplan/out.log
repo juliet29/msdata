@@ -1,0 +1,22 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('kitchen_5-east_0', 'shaft_4-west_0'): 0.15800000000000125},                           
+             {('corridor_1-east_1', 'corridor_0-west_0'): 0.1399999999999988},                        
+             {('shaft_3-east_0', 'living_dining_8-west_0'): 0.14499999999999957},                     
+             {('corridor_1-east_0', 'living_dining_8-west_0'): 0.08999999999999986},                  
+             {('shaft_4-east_0', 'bathroom_2-west_0'): 0.1349999999999998},                           
+             {('corridor_0-east_0', 'room_7-west_0'): 0.14000000000000057},                           
+             {('bathroom_2-east_0', 'room_7-west_0'): 0.14000000000000057},                           
+             {('living_dining_8-east_1', 'balcony_6-west_0'): 0.2789999999999999},                    
+             {('room_7-east_0', 'balcony_6-west_0'): 0.2779999999999996}                              
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('kitchen_5-east_0', 'shaft_4-west_0'): 0,                                               
+             ('corridor_1-east_1', 'corridor_0-west_0'): 1,                                           
+             ('shaft_3-east_0', 'living_dining_8-west_0'): 2,                                         
+             ('corridor_1-east_0', 'living_dining_8-west_0'): 3,                                      
+             ('shaft_4-east_0', 'bathroom_2-west_0'): 4,                                              
+             ('corridor_0-east_0', 'room_7-west_0'): 5,                                               
+             ('bathroom_2-east_0', 'room_7-west_0'): 6,                                               
+             ('living_dining_8-east_1', 'balcony_6-west_0'): 7,                                       
+             ('room_7-east_0', 'balcony_6-west_0'): 8                                                 
+         }                                                                                            

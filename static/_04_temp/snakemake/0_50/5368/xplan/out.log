@@ -1,0 +1,20 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('shaft_3-east_0', 'corridor_4-west_1'): 0.18299999999999983},                          
+             {('bathroom_1-east_1', 'kitchen_2-west_1'): 0.08599999999999941},                        
+             {('bathroom_1-east_0', 'kitchen_2-west_0'): 0.12300000000000022},                        
+             {('balcony_5-east_0', 'room_6-west_0'): 0.3230000000000004},                             
+             {('living_dining_7-east_0', 'corridor_4-west_0'): 0.17600000000000016},                  
+             {('living_dining_7-east_0', 'room_6-west_0'): 0.1720000000000006},                       
+             {('kitchen_2-east_0', 'room_0-west_0'): 0.17100000000000115},                            
+             {('corridor_4-east_1', 'room_0-west_0'): 0.17100000000000115}                            
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('shaft_3-east_0', 'corridor_4-west_1'): 0,                                              
+             ('bathroom_1-east_1', 'kitchen_2-west_1'): 1,                                            
+             ('bathroom_1-east_0', 'kitchen_2-west_0'): 2,                                            
+             ('balcony_5-east_0', 'room_6-west_0'): 3,                                                
+             ('living_dining_7-east_0', 'corridor_4-west_0'): 4,                                      
+             ('living_dining_7-east_0', 'room_6-west_0'): 5,                                          
+             ('corridor_4-east_1', 'room_0-west_0'): 6,                                               
+             ('kitchen_2-east_0', 'room_0-west_0'): 7                                                 
+         }                                                                                            

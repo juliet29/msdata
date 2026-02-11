@@ -1,0 +1,68 @@
+INFO     ℹ️:polymap.layout.main.move:try_moves:122 | {} | roots=['balcony_1-north_0', 'room_7-north_0',
+         'bathroom_6-north_0', 'shaft_4-north_0', 'corridor_5-north_1', 'corridor_5-north_0',         
+         'kitchen_3-north_0']                                                                         
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:BALCONY_1-NORTH_0.                                                                      
+         [{('balcony_1-north_0', 'room_7-south_0'): 0.4089999999999998}]                              
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving balcony_1-north_0 by                 
+         0.4089999999999998 to room_7-south_0                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | balcony_1 has changed!            
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_7-NORTH_0.                                                                         
+         [{('room_7-north_0', 'corridor_5-south_0'): 0.16599999999999993}]                            
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_7-north_0 by 0.16599999999999993
+         to corridor_5-south_0                                                                        
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_7 has changed!               
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:BATHROOM_6-NORTH_0.                                                                     
+         [{('bathroom_6-north_0', 'room_0-south_0'): 0.2240000000000002}]                             
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving bathroom_6-north_0 by                
+         0.2240000000000002 to room_0-south_0                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | bathroom_6 has changed!           
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:SHAFT_4-NORTH_0.                                                                        
+         [{('shaft_4-north_0', 'room_0-south_0'): 0.21700000000000008}]                               
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving shaft_4-north_0 by                   
+         0.21700000000000008 to room_0-south_0                                                        
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | shaft_4 has changed!              
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:CORRIDOR_5-NORTH_1.                                                                     
+         [{('corridor_5-north_1', 'room_0-south_0'): 0.18900000000000006}]                            
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_5-north_1 by                
+         0.18900000000000006 to room_0-south_0                                                        
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_5 has changed!           
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:CORRIDOR_5-NORTH_0.                                                                     
+         [{('corridor_5-north_0', 'kitchen_3-south_0'): 0.07699999999999951}]                         
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_5-north_0 by                
+         0.07699999999999951 to kitchen_3-south_0                                                     
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_5 has changed!           
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:KITCHEN_3-NORTH_0.                                                                      
+         [{('kitchen_3-north_0', 'balcony_2-south_0'): 0.5059999999999993}]                           
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving kitchen_3-north_0 by                 
+         0.5059999999999993 to balcony_2-south_0                                                      
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | kitchen_3 has changed!            
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       

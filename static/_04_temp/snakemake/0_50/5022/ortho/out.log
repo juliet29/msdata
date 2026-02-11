@@ -1,0 +1,34 @@
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'room_0'} | No non-ortho on room_0   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'shaft_1'} | No non-ortho on shaft_1 
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'corridor_2'} | No non-ortho on      
+         corridor_2                                                                                   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'dining_3'} | No non-ortho on        
+         dining_3                                                                                     
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'living_room_4'} | No non-ortho on   
+         living_room_4                                                                                
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'balcony_5'} | No non-ortho on       
+         balcony_5                                                                                    
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'kitchen_6'} | No non-ortho on       
+         kitchen_6                                                                                    
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'corridor_7'} | No non-ortho on      
+         corridor_7                                                                                   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'bathroom_8'} | No non-ortho on      
+         bathroom_8                                                                                   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'shaft_9'} | No non-ortho on shaft_9 
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'room_10'} | No non-ortho on room_10 
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'room_11'} | No non-ortho on room_11 
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'bathroom_12'} | No non-ortho on     
+         bathroom_12                                                                                  
+                                                                                                      

@@ -1,0 +1,12 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('room_2-north_0', 'room_7-south_1'): 0.041999999999999815},                            
+             {('room_7-north_0', 'room_4-south_0'): 0.1259999999999999},                              
+             {('room_4-north_0', 'kitchen_0-south_0'): 0.133},                                        
+             {('kitchen_0-north_0', 'bathroom_5-south_0'): 0.12199999999999989}                       
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('room_7-north_0', 'room_4-south_0'): 0,                                                 
+             ('room_4-north_0', 'kitchen_0-south_0'): 1,                                              
+             ('kitchen_0-north_0', 'bathroom_5-south_0'): 2,                                          
+             ('room_2-north_0', 'room_7-south_1'): 3                                                  
+         }                                                                                            

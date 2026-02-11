@@ -1,0 +1,117 @@
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'room_0'} | Resolving non-ortho on   
+         room_0                                                                                       
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'room_0'} | vector to align:        
+         <0.7492583362640985, 5.067580071523231, 0> | result: <0.0, 5.067580071523231, 0.0>           
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'room_0'} | vector to align:        
+         <3.1658397796401445, -0.4680797960157115, 0> | result: <3.1658397796401445, 0.0, 0.0>        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'room_0'} | vector to align:        
+         <-0.7492583362640985, -5.067580071523231, 0> | result: <0.0, -5.067580071523231, 0.0>        
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'room_0'} | vector to align:        
+         <-3.1658397796401445, 0.4680797960157115, 0> | result: <-3.1658397796401445, 0.0, 0.0>       
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:19 | {'name': 'room_0'} | Finished resolving       
+         non-ortho on room_0                                                                          
+                                                                                                      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'living_dining_1'} | Resolving       
+         non-ortho on living_dining_1                                                                 
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <1.6421259853599217, -0.24279371344141154, 0> | result: <1.6421259853599217, 0.0, 0.0>
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <-0.001442674411070044, -0.009757473145615592, 0> | result: <0.0,                     
+         -0.009757473145615592, 0.0>                                                                  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <0.16621450531586746, -0.024575359828205023, 0> | result: <0.16621450531586746, 0.0,  
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <0.0014426744110664913, 0.009757473145619144, 0> | result: <0.0, 0.009757473145619144,
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <0.008116443571129395, -0.0012000428055713996, 0> | result: <0.008116443571129395,    
+         0.0, 0.0>                                                                                    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <0.024575359828205023, 0.166214505315871, 0> | result: <0.0, 0.166214505315871, 0.0>  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <-0.008116443571129395, 0.0012000428055713996, 0> | result: <-0.008116443571129395,   
+         0.0, 0.0>                                                                                    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <0.15810792912449045, 1.0693569253778037, 0> | result: <0.0, 1.0693569253778037, 0.0> 
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <1.9452476694425975, -0.287611248818358, 0> | result: <1.9452476694425975, 0.0, 0.0>  
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <-0.7750898122852767, -5.242290270619128, 0> | result: <0.0, -5.242290270619128, 0.0> 
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <-3.1611816367857983, 0.46739107431504223, 0> | result: <-3.1611816367857983, 0.0,    
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_dining_1'} | vector to      
+         align: <0, 4.094308087698382, 0> | result: <0.0, 4.094308087698382, 0.0>                     
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:19 | {'name': 'living_dining_1'} | Finished        
+         resolving non-ortho on living_dining_1                                                       
+                                                                                                      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'balcony_2'} | Resolving non-ortho on
+         balcony_2                                                                                    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <2.1994351421116, -0.3251937003540988, 0> | result: <2.1994351421116, 0.0, 0.0>              
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <-0.31517389736044166, -0.2074752090374563, 0> | result: <-0.31517389736044166, 0.0, 0.0>    
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <-0.0010549571644631328, 0.00015504058409732124, 0> | result: <-0.0010549571644631328, 0.0,  
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <-0.0001382186266418728, -0.0009404939441335358, 0> | result: <0.0, -0.0009404939441335358,  
+         0.0>                                                                                         
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <-0.003534844696456929, -0.002326946008075481, 0> | result: <-0.003534844696456929, 0.0, 0.0>
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <0.0026101479736766464, -0.003965054491901654, 0> | result: <0.0, -0.003965054491901654, 0.0>
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <-0.20158166810001177, -1.3716410204825475, 0> | result: <0.0, -1.3716410204825475, 0.0>     
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <-0.21742604898685158, -0.14312896893281213, 0> | result: <-0.21742604898685158, 0.0, 0.0>   
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <-1.0341721433566846, 0.15198593702531937, 0> | result: <-1.0341721433566846, 0.0, 0.0>      
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <-0.39885565841594683, 0.3627618261811687, 0> | result: <-0.39885565841594683, 0.0, 0.0>     
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'balcony_2'} | vector to align:     
+         <-0.030107853377778326, 1.53976858946044, 0> | result: <0.0, 1.53976858946044, 0.0>          
+ERROR    ❌:polymap.geometry.modify.validate:message:37 | {'name': 'balcony_2'} | balcony_2 is        
+         invalid! Reason: NOT ORTHOGONAL                                                              
+ERROR    ❌:polymap.geometry.modify.validate:message:37 | {} | balcony_2 is invalid! Reason: NOT      
+         ORTHOGONAL                                                                                   
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/nonortho/main.py", line 16, in orthogonalize_dom
+    assert new_dom.is_orthogonal
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/make/main.py", line 52, in ortho
+    layout = orthogonalize_layout(in_layout)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/nonortho/main.py", line 28, in orthogonalize_layout
+    return Layout(list(new_doms))
+                  ~~~~^^^^^^^^^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/nonortho/main.py", line 27, in <lambda>
+    new_doms = map(lambda x: orthogonalize_dom(x), layout.domains)
+                             ~~~~~~~~~~~~~~~~~^^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/nonortho/main.py", line 18, in orthogonalize_dom
+    raise InvalidPolygonError(new_dom.polygon, dom.name, "NOT ORTHOGONAL")
+polymap.geometry.modify.validate.InvalidPolygonError: (<POLYGON ((-7.916 12.429, -8.231 12.104, -8.232 11.897, -8.232 11.896, -8.23...>, 'balcony_2', 'NOT ORTHOGONAL')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/bin/polymap", line 10, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/main.py", line 22, in main
+    app()
+    ~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/core.py", line 1869, in __call__
+    result = _run_maybe_async_command(command, bound, resolved_backend)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/_run.py", line 50, in _run_maybe_async_command
+    return command(*bound.args, **bound.kwargs)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/make/main.py", line 57, in ortho
+    raise RuntimeError(
+        "Could not orthogonalize the layout due to at least one polygon being non-orthogonalizable"
+    )
+RuntimeError: Could not orthogonalize the layout due to at least one polygon being non-orthogonalizable

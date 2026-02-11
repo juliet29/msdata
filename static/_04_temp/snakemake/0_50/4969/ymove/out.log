@@ -1,0 +1,40 @@
+INFO     ℹ️:polymap.layout.main.move:try_moves:122 | {} | roots=['room_2-north_0', 'room_7-north_0',   
+         'room_4-north_0', 'kitchen_0-north_0']                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_2-NORTH_0.                                                                         
+         [{('room_2-north_0', 'room_7-south_1'): 0.041999999999999815}]                               
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_2-north_0 by                    
+         0.041999999999999815 to room_7-south_1                                                       
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_2 has changed!               
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_7-NORTH_0.                                                                         
+         [{('room_7-north_0', 'room_4-south_0'): 0.1259999999999999}]                                 
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_7-north_0 by 0.1259999999999999 
+         to room_4-south_0                                                                            
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_7 has changed!               
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_4-NORTH_0.                                                                         
+         [{('room_4-north_0', 'kitchen_0-south_0'): 0.133}]                                           
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_4-north_0 by 0.133 to           
+         kitchen_0-south_0                                                                            
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_4 has changed!               
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:KITCHEN_0-NORTH_0.                                                                      
+         [{('kitchen_0-north_0', 'bathroom_5-south_0'): 0.12199999999999989}]                         
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving kitchen_0-north_0 by                 
+         0.12199999999999989 to bathroom_5-south_0                                                    
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | kitchen_0 has changed!            
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       

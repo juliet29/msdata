@@ -1,0 +1,10 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('bathroom_2-east_0', 'kitchen_4-west_0'): 0.1200000000000001},                         
+             {('corridor_0-east_0', 'living_room_3-west_0'): 0.129},                                  
+             {('kitchen_4-east_0', 'living_room_3-west_0'): 0.129}                                    
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('bathroom_2-east_0', 'kitchen_4-west_0'): 0,                                            
+             ('kitchen_4-east_0', 'living_room_3-west_0'): 1,                                         
+             ('corridor_0-east_0', 'living_room_3-west_0'): 2                                         
+         }                                                                                            

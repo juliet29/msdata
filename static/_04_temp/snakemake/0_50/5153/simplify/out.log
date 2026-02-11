@@ -1,0 +1,923 @@
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         storeroom_0)                                                                                 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         storeroom_0)                                                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'storeroom_0-west_1',            
+         'storeroom_0-north_1'}, {'storeroom_0-north_2'}]                                             
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['storeroom_0-west_1',           
+         'storeroom_0-north_1']                                                                       
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('storeroom_0-west_1',          
+         'storeroom_0-north_1')]                                                                      
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['storeroom_0-west_1', 'storeroom_0-north_1'],                             
+             'ordered': ['storeroom_0-west_1', 'storeroom_0-north_1']                                 
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 1, 'pass': 1},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['storeroom_0-north_0', 'storeroom_0-west_1',           
+         'storeroom_0-north_1', 'storeroom_0-west_2'])                                                
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['storeroom_0-west_1', 'storeroom_0-west_2']                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'storeroom_0-north_1'}]          
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 1, 'pass': 1},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.PiOne'>(['storeroom_0-west_1', 'storeroom_0-north_1',              
+         'storeroom_0-east_0'])                                                                       
+ERROR    ❌:polymap.geometry.modify.validate:message:37 | {} | storeroom_0 is invalid! Reason:        
+         Self-intersection[6.40733589789495 -5.84577285354065]                                        
+WARNING  ⚠️:polymap.bends.errors:show_message:41 | {} | Invalid Move for 5153-storeroom_0              
+WARNING  ⚠️:polymap.bends.errors:show_message:42 | {} | Self-intersection[6.40733589789495             
+         -5.84577285354065]                                                                           
+WARNING  ⚠️:polymap.bends.errors:show_message:45 | {} | BendHolder: {                                  
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 1, 'pass': 1},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+WARNING  ⚠️:polymap.bends.errors:show_message:48 | {} | Current bend is <class                         
+         'polymap.bends.interfaces.PiOne'>(['storeroom_0-west_1', 'storeroom_0-north_1',              
+         'storeroom_0-east_0'])                                                                       
+WARNING  ⚠️:polymap.bends.errors:show_message:49 | {} | {                                              
+             'a': 'storeroom_0-west_1 | <0, 1, 0> | False |  PairedCoord[(6.41, -4.39), (6.41, -2.05)]
+         ',                                                                                           
+             's1': 'storeroom_0-north_1 | <1, 0, 0> | True |  PairedCoord[(6.41, -2.05), (6.52,       
+         -2.05)] ',                                                                                   
+             'b': 'storeroom_0-east_0 | <0, -1, 0> | False |  PairedCoord[(6.52, -2.05), (6.52,       
+         -5.85)] '                                                                                    
+         }                                                                                            
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153, room_1) 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         room_1)                                                                                      
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_1-south_3',                
+         'room_1-west_2'}, {'room_1-south_4'}, {'room_1-south_1'}, {'room_1-north_4'},                
+         {'room_1-west_1', 'room_1-north_3'}]                                                         
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_1-south_3',               
+         'room_1-west_2']                                                                             
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_1-south_3',              
+         'room_1-west_2')]                                                                            
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_1-south_3', 'room_1-west_2'],                                       
+             'ordered': ['room_1-south_3', 'room_1-west_2']                                           
+         }                                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_1-west_1',                
+         'room_1-north_3']                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_1-west_1',               
+         'room_1-north_3')]                                                                           
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_1-west_1', 'room_1-north_3'],                                       
+             'ordered': ['room_1-west_1', 'room_1-north_3']                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 1, 'pass': 1},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 2, 'pass': 2},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.PiTwo'>(['room_1-east_4', 'room_1-south_4', 'room_1-east_3',       
+         'room_1-north_4', 'room_1-east_2'])                                                          
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_1-east_4', 'room_1-east_3', 'room_1-east_2']                                          
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_1-south_3',                
+         'room_1-west_2'}, {'room_1-west_1', 'room_1-north_3'}, {'room_1-south_1'}]                   
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_1-south_3',               
+         'room_1-west_2']                                                                             
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_1-south_3',              
+         'room_1-west_2')]                                                                            
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_1-south_3', 'room_1-west_2'],                                       
+             'ordered': ['room_1-south_3', 'room_1-west_2']                                           
+         }                                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_1-west_1',                
+         'room_1-north_3']                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_1-west_1',               
+         'room_1-north_3')]                                                                           
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_1-west_1', 'room_1-north_3'],                                       
+             'ordered': ['room_1-west_1', 'room_1-north_3']                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 2, 'pass': 2},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['room_1-east_2', 'room_1-south_3', 'room_1-west_2',    
+         'room_1-south_2'])                                                                           
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_1-south_3', 'room_1-south_2']                                                         
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_1-south_1'},               
+         {'room_1-west_1', 'room_1-north_3'}]                                                         
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_1-west_1',                
+         'room_1-north_3']                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_1-west_1',               
+         'room_1-north_3')]                                                                           
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_1-west_1', 'room_1-north_3'],                                       
+             'ordered': ['room_1-west_1', 'room_1-north_3']                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['room_1-north_2', 'room_1-west_1', 'room_1-north_3',   
+         'room_1-east_0'])                                                                            
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_1-north_2', 'room_1-north_3']                                                         
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_1-south_1'}]               
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['room_1-west_1', 'room_1-south_1', 'room_1-west_2'])   
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_1-west_1', 'room_1-west_2']                                                           
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, room_1)                                                                           
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153, room_2) 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         room_2)                                                                                      
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_2-south_3',                
+         'room_2-east_1'}, {'room_2-south_0'}, {'room_2-south_1'}, {'room_2-north_1',                 
+         'room_2-west_3'}]                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_2-east_1',                
+         'room_2-south_3']                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_2-east_1',               
+         'room_2-south_3')]                                                                           
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_2-south_3', 'room_2-east_1'],                                       
+             'ordered': ['room_2-east_1', 'room_2-south_3']                                           
+         }                                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_2-north_1',               
+         'room_2-west_3']                                                                             
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_2-north_1',              
+         'room_2-west_3')]                                                                            
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_2-north_1', 'room_2-west_3'],                                       
+             'ordered': ['room_2-north_1', 'room_2-west_3']                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 2, 'pass': 2},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 2, 'pass': 2},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['room_2-south_4', 'room_2-east_1', 'room_2-south_3',   
+         'room_2-east_0'])                                                                            
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_2-east_1', 'room_2-east_0']                                                           
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_2-north_1',                
+         'room_2-west_3'}, {'room_2-south_0'}, {'room_2-south_1'}]                                    
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_2-north_1',               
+         'room_2-west_3']                                                                             
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_2-north_1',              
+         'room_2-west_3')]                                                                            
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_2-north_1', 'room_2-west_3'],                                       
+             'ordered': ['room_2-north_1', 'room_2-west_3']                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 2, 'pass': 2},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['room_2-east_2', 'room_2-north_1', 'room_2-west_3',    
+         'room_2-north_2'])                                                                           
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_2-north_1', 'room_2-north_2']                                                         
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_2-south_0'},               
+         {'room_2-south_1'}]                                                                          
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 2, 'pass': 2},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['room_2-west_1', 'room_2-south_0', 'room_2-west_2'])   
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_2-west_1', 'room_2-west_2']                                                           
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_2-south_0'}]               
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['room_2-west_0', 'room_2-south_0', 'room_2-west_1'])   
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, room_2)                                                                           
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153, shaft_3)
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         shaft_3)                                                                                     
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, shaft_3)                                                                          
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153, shaft_4)
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5153,     
+         shaft_4). Ending iteration...                                                                
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         storeroom_5)                                                                                 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         storeroom_5)                                                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'storeroom_5-east_1'}]           
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['storeroom_5-north_0', 'storeroom_5-east_1',           
+         'storeroom_5-north_1'])                                                                      
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['storeroom_5-north_0', 'storeroom_5-north_1']                                               
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, storeroom_5)                                                                      
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153, shaft_6)
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5153,     
+         shaft_6). Ending iteration...                                                                
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         storeroom_7)                                                                                 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5153,     
+         storeroom_7). Ending iteration...                                                            
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         corridor_8)                                                                                  
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5153,     
+         corridor_8). Ending iteration...                                                             
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153, room_9) 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         room_9)                                                                                      
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_9-north_3',                
+         'room_9-east_4'}, {'room_9-east_3'}, {'room_9-north_5'}, {'room_9-south_1'}]                 
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_9-north_3',               
+         'room_9-east_4']                                                                             
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_9-north_3',              
+         'room_9-east_4')]                                                                            
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_9-north_3', 'room_9-east_4'],                                       
+             'ordered': ['room_9-north_3', 'room_9-east_4']                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 1, 'pass': 1},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.PiTwo'>(['room_9-east_2', 'room_9-south_1', 'room_9-east_1',       
+         'room_9-north_5', 'room_9-east_0'])                                                          
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_9-east_1', 'room_9-east_0']                                                           
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_9-east_3',                 
+         'room_9-north_3'}, {'room_9-east_2'}, {'room_9-south_1'}]                                    
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_9-north_3',               
+         'room_9-east_3']                                                                             
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_9-north_3',              
+         'room_9-east_3')]                                                                            
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_9-east_3', 'room_9-north_3'],                                       
+             'ordered': ['room_9-north_3', 'room_9-east_3']                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 2, 'pass': 2},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['room_9-east_4', 'room_9-north_3', 'room_9-east_3',    
+         'room_9-north_4'])                                                                           
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_9-north_3', 'room_9-north_4']                                                         
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_9-east_2'},                
+         {'room_9-south_1'}]                                                                          
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 2, 'pass': 2},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['room_9-north_0', 'room_9-east_2', 'room_9-north_1'])  
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_9-north_0', 'room_9-north_1']                                                         
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_9-south_1'}]               
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['room_9-east_1', 'room_9-south_1', 'room_9-east_0'])   
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_9-east_1', 'room_9-east_0']                                                           
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, room_9)                                                                           
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         bathroom_10)                                                                                 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         bathroom_10)                                                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'bathroom_10-west_1',            
+         'bathroom_10-north_1'}, {'bathroom_10-north_3', 'bathroom_10-east_1'}]                       
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['bathroom_10-west_1',           
+         'bathroom_10-north_1']                                                                       
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('bathroom_10-west_1',          
+         'bathroom_10-north_1')]                                                                      
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['bathroom_10-west_1', 'bathroom_10-north_1'],                             
+             'ordered': ['bathroom_10-west_1', 'bathroom_10-north_1']                                 
+         }                                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['bathroom_10-north_3',          
+         'bathroom_10-east_1']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('bathroom_10-north_3',         
+         'bathroom_10-east_1')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['bathroom_10-north_3', 'bathroom_10-east_1'],                             
+             'ordered': ['bathroom_10-north_3', 'bathroom_10-east_1']                                 
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 2, 'pass': 2},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['bathroom_10-north_0', 'bathroom_10-west_1',           
+         'bathroom_10-north_1', 'bathroom_10-west_2'])                                                
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['bathroom_10-west_1', 'bathroom_10-west_2']                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'bathroom_10-north_2',           
+         'bathroom_10-east_1'}]                                                                       
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['bathroom_10-north_2',          
+         'bathroom_10-east_1']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('bathroom_10-north_2',         
+         'bathroom_10-east_1')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['bathroom_10-north_2', 'bathroom_10-east_1'],                             
+             'ordered': ['bathroom_10-north_2', 'bathroom_10-east_1']                                 
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['bathroom_10-east_2', 'bathroom_10-north_2',           
+         'bathroom_10-east_1', 'bathroom_10-north_3'])                                                
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['bathroom_10-north_2', 'bathroom_10-north_3']                                               
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, bathroom_10)                                                                      
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         bathroom_11)                                                                                 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         bathroom_11)                                                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'bathroom_11-east_0'},           
+         {'bathroom_11-east_2', 'bathroom_11-south_2'}]                                               
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['bathroom_11-east_2',           
+         'bathroom_11-south_2']                                                                       
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('bathroom_11-east_2',          
+         'bathroom_11-south_2')]                                                                      
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['bathroom_11-east_2', 'bathroom_11-south_2'],                             
+             'ordered': ['bathroom_11-east_2', 'bathroom_11-south_2']                                 
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['bathroom_11-south_3', 'bathroom_11-east_2',           
+         'bathroom_11-south_2', 'bathroom_11-east_1'])                                                
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['bathroom_11-east_2', 'bathroom_11-east_1']                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'bathroom_11-east_0'}]           
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['bathroom_11-south_1', 'bathroom_11-east_0',           
+         'bathroom_11-south_0'])                                                                      
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['bathroom_11-south_1', 'bathroom_11-south_0']                                               
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, bathroom_11)                                                                      
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         kitchen_12)                                                                                  
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         kitchen_12)                                                                                  
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'kitchen_12-north_3',            
+         'kitchen_12-east_2'}, {'kitchen_12-east_3', 'kitchen_12-south_1'}, {'kitchen_12-west_1'}]    
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['kitchen_12-east_2',            
+         'kitchen_12-north_3']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('kitchen_12-east_2',           
+         'kitchen_12-north_3')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['kitchen_12-north_3', 'kitchen_12-east_2'],                               
+             'ordered': ['kitchen_12-east_2', 'kitchen_12-north_3']                                   
+         }                                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['kitchen_12-east_3',            
+         'kitchen_12-south_1']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('kitchen_12-east_3',           
+         'kitchen_12-south_1')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['kitchen_12-east_3', 'kitchen_12-south_1'],                               
+             'ordered': ['kitchen_12-east_3', 'kitchen_12-south_1']                                   
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 1, 'pass': 1},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 2, 'pass': 2},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.PiTwo'>(['kitchen_12-north_1', 'kitchen_12-west_1',                
+         'kitchen_12-north_2', 'kitchen_12-east_2', 'kitchen_12-north_3'])                            
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['kitchen_12-north_2', 'kitchen_12-north_3']                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'kitchen_12-west_1'},            
+         {'kitchen_12-south_1', 'kitchen_12-east_2'}]                                                 
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['kitchen_12-east_2',            
+         'kitchen_12-south_1']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('kitchen_12-east_2',           
+         'kitchen_12-south_1')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['kitchen_12-south_1', 'kitchen_12-east_2'],                               
+             'ordered': ['kitchen_12-east_2', 'kitchen_12-south_1']                                   
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['kitchen_12-south_2', 'kitchen_12-east_2',             
+         'kitchen_12-south_1', 'kitchen_12-east_1'])                                                  
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['kitchen_12-east_2', 'kitchen_12-east_1']                                                   
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'kitchen_12-west_1'}]            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['kitchen_12-north_1', 'kitchen_12-west_1',             
+         'kitchen_12-north_2'])                                                                       
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['kitchen_12-north_1', 'kitchen_12-north_2']                                                 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, kitchen_12)                                                                       
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         shaft_13)                                                                                    
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5153,     
+         shaft_13). Ending iteration...                                                               
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         storeroom_14)                                                                                
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         storeroom_14)                                                                                
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'storeroom_14-east_1'},          
+         {'storeroom_14-west_1'}]                                                                     
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 1, 'pass': 1},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.PiTwo'>(['storeroom_14-north_0', 'storeroom_14-east_1',            
+         'storeroom_14-north_1', 'storeroom_14-west_1', 'storeroom_14-north_2'])                      
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['storeroom_14-north_1', 'storeroom_14-north_2']                                             
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'storeroom_14-west_1'}]          
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['storeroom_14-north_0', 'storeroom_14-west_1',         
+         'storeroom_14-north_1'])                                                                     
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['storeroom_14-north_0', 'storeroom_14-north_1']                                             
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, storeroom_14)                                                                     
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         corridor_15)                                                                                 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5153,     
+         corridor_15). Ending iteration...                                                            
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         shaft_16)                                                                                    
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         shaft_16)                                                                                    
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, shaft_16)                                                                         
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153, room_17)
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         room_17)                                                                                     
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_17-south_0'},              
+         {'room_17-south_3', 'room_17-west_1'}, {'room_17-south_1'}]                                  
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['room_17-west_1',               
+         'room_17-south_3']                                                                           
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('room_17-west_1',              
+         'room_17-south_3')]                                                                          
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['room_17-south_3', 'room_17-west_1'],                                     
+             'ordered': ['room_17-west_1', 'room_17-south_3']                                         
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 2, 'pass': 2},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['room_17-south_4', 'room_17-west_1', 'room_17-south_3',
+         'room_17-east_0'])                                                                           
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_17-south_4', 'room_17-south_3']                                                       
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_17-south_0'},              
+         {'room_17-south_1'}]                                                                         
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 2, 'pass': 2},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['room_17-west_1', 'room_17-south_0', 'room_17-west_2'])
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_17-west_1', 'room_17-west_2']                                                         
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_17-south_0'}]              
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['room_17-west_0', 'room_17-south_0', 'room_17-west_1'])
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_17-west_0', 'room_17-west_1']                                                         
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, room_17)                                                                          
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         balcony_18)                                                                                  
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5153,     
+         balcony_18). Ending iteration...                                                             
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         shaft_19)                                                                                    
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         shaft_19)                                                                                    
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, shaft_19)                                                                         
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153, room_20)
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         room_20)                                                                                     
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'room_20-east_1'}]               
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['room_20-north_0', 'room_20-east_1',                   
+         'room_20-north_1'])                                                                          
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['room_20-north_0', 'room_20-north_1']                                                       
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, room_20)                                                                          
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         storeroom_21)                                                                                
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         storeroom_21)                                                                                
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'storeroom_21-south_0'}]         
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['storeroom_21-west_0', 'storeroom_21-south_0',         
+         'storeroom_21-west_1'])                                                                      
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['storeroom_21-west_0', 'storeroom_21-west_1']                                               
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, storeroom_21)                                                                     
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         shaft_22)                                                                                    
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:77 | {} | No small surfaces for (5153,     
+         shaft_22). Ending iteration...                                                               
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         storeroom_23)                                                                                
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         storeroom_23)                                                                                
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'storeroom_23-west_1',           
+         'storeroom_23-north_1'}]                                                                     
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['storeroom_23-north_1',         
+         'storeroom_23-west_1']                                                                       
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('storeroom_23-north_1',        
+         'storeroom_23-west_1')]                                                                      
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['storeroom_23-west_1', 'storeroom_23-north_1'],                           
+             'ordered': ['storeroom_23-north_1', 'storeroom_23-west_1']                               
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['storeroom_23-west_0', 'storeroom_23-north_1',         
+         'storeroom_23-west_1', 'storeroom_23-south_0'])                                              
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['storeroom_23-west_0', 'storeroom_23-west_1']                                               
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, storeroom_23)                                                                     
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         storeroom_24)                                                                                
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         storeroom_24)                                                                                
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'storeroom_24-east_0'}]          
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['storeroom_24-south_1', 'storeroom_24-east_0',         
+         'storeroom_24-south_0'])                                                                     
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['storeroom_24-south_1', 'storeroom_24-south_0']                                             
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, storeroom_24)                                                                     
+                                                                                                      
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:61 | {} | Starting to clean (5153,         
+         corridor_25)                                                                                 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:80 | {} | Starting iteration for (5153,    
+         corridor_25)                                                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'corridor_25-south_3',           
+         'corridor_25-west_0'}, {'corridor_25-north_1', 'corridor_25-east_5'},                        
+         {'corridor_25-south_1'}, {'corridor_25-north_4'}]                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['corridor_25-south_3',          
+         'corridor_25-west_0']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('corridor_25-south_3',         
+         'corridor_25-west_0')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['corridor_25-south_3', 'corridor_25-west_0'],                             
+             'ordered': ['corridor_25-south_3', 'corridor_25-west_0']                                 
+         }                                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['corridor_25-north_1',          
+         'corridor_25-east_5']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('corridor_25-north_1',         
+         'corridor_25-east_5')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['corridor_25-north_1', 'corridor_25-east_5'],                             
+             'ordered': ['corridor_25-north_1', 'corridor_25-east_5']                                 
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 1, 'pass': 1},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 2, 'pass': 2},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 0, 'pass': 0},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.PiTwo'>(['corridor_25-east_3', 'corridor_25-north_4',              
+         'corridor_25-east_2', 'corridor_25-south_1', 'corridor_25-east_1'])                          
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['corridor_25-east_2', 'corridor_25-east_1']                                                 
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'corridor_25-south_3',           
+         'corridor_25-west_0'}, {'corridor_25-north_1', 'corridor_25-east_4'},                        
+         {'corridor_25-south_1'}]                                                                     
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['corridor_25-south_3',          
+         'corridor_25-west_0']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('corridor_25-south_3',         
+         'corridor_25-west_0')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['corridor_25-south_3', 'corridor_25-west_0'],                             
+             'ordered': ['corridor_25-south_3', 'corridor_25-west_0']                                 
+         }                                                                                            
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['corridor_25-north_1',          
+         'corridor_25-east_4']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('corridor_25-north_1',         
+         'corridor_25-east_4')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['corridor_25-north_1', 'corridor_25-east_4'],                             
+             'ordered': ['corridor_25-north_1', 'corridor_25-east_4']                                 
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 2, 'pass': 2},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['corridor_25-east_0', 'corridor_25-south_3',           
+         'corridor_25-west_0', 'corridor_25-south_0'])                                                
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['corridor_25-south_3', 'corridor_25-south_0']                                               
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'corridor_25-south_1'},          
+         {'corridor_25-north_1', 'corridor_25-east_4'}]                                               
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:142 | {} | ['corridor_25-north_1',          
+         'corridor_25-east_4']                                                                        
+TRACE    ✏️:polymap.bends.graph:order_nodes_based_on_graph:150 | {} | [('corridor_25-north_1',         
+         'corridor_25-east_4')]                                                                       
+TRACE    ✏️:polymap.bends.graph:handle_components:174 | {} | {                                         
+             'orig_nodes': ['corridor_25-north_1', 'corridor_25-east_4'],                             
+             'ordered': ['corridor_25-north_1', 'corridor_25-east_4']                                 
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 1, 'pass': 1},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaTwo'>(['corridor_25-east_5', 'corridor_25-north_1',           
+         'corridor_25-east_4', 'corridor_25-north_2'])                                                
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['corridor_25-north_1', 'corridor_25-north_2']                                               
+TRACE    ✏️:polymap.bends.bends:assign_bends:73 | {} | components = [{'corridor_25-south_1'}]          
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:358 | {} | BendHolder: {                           
+             'pi2s': {'size': 0, 'pass': 0},                                                          
+             'pi3s': {'size': 0, 'pass': 0},                                                          
+             'kappa2s': {'size': 0, 'pass': 0},                                                       
+             'pis': {'size': 0, 'pass': 0},                                                           
+             'kappas': {'size': 1, 'pass': 1},                                                        
+             'large': 0,                                                                              
+             'not_found': 0                                                                           
+         }                                                                                            
+DEBUG    🐞:polymap.bends.interfaces:get_next_bend:359 | {} | Next bend is <class                     
+         'polymap.bends.interfaces.KappaOne'>(['corridor_25-east_2', 'corridor_25-south_1',           
+         'corridor_25-east_1'])                                                                       
+DEBUG    🐞:polymap.bends.points:fix_vector_group_on_domain:57 | {} | surf group to heal:             
+         ['corridor_25-east_2', 'corridor_25-east_1']                                                 
+INFO     ℹ️:polymap.bends.main:remove_all_bends_from_domain:123 | {} | Successfully completed iteration
+         for (5153, corridor_25)                                                                      
+                                                                                                      
+WARNING  ⚠️:polymap.cli.make.main:simplify:69 | {} | Bad domains exist which may cause problems:       
+         ['(5153, storeroom_0)']                                                                      
+INFO     ℹ️:polymap.geometry.modify.precision:decrease_layout_precision:75 | {} | New precision is 3   

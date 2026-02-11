@@ -1,0 +1,18 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('balcony_1-north_0', 'room_7-south_0'): 0.4089999999999998},                           
+             {('room_7-north_0', 'corridor_5-south_0'): 0.16599999999999993},                         
+             {('bathroom_6-north_0', 'room_0-south_0'): 0.2240000000000002},                          
+             {('shaft_4-north_0', 'room_0-south_0'): 0.21700000000000008},                            
+             {('corridor_5-north_1', 'room_0-south_0'): 0.18900000000000006},                         
+             {('corridor_5-north_0', 'kitchen_3-south_0'): 0.07699999999999951},                      
+             {('kitchen_3-north_0', 'balcony_2-south_0'): 0.5059999999999993}                         
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('kitchen_3-north_0', 'balcony_2-south_0'): 0,                                           
+             ('corridor_5-north_0', 'kitchen_3-south_0'): 1,                                          
+             ('room_7-north_0', 'corridor_5-south_0'): 2,                                             
+             ('corridor_5-north_1', 'room_0-south_0'): 3,                                             
+             ('balcony_1-north_0', 'room_7-south_0'): 4,                                              
+             ('bathroom_6-north_0', 'room_0-south_0'): 5,                                             
+             ('shaft_4-north_0', 'room_0-south_0'): 6                                                 
+         }                                                                                            

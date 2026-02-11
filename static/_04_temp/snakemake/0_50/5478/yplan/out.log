@@ -1,0 +1,30 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('balcony_11-north_0', 'room_9-south_0'): 0.3949999999999996},                          
+             {('living_room_10-north_0', 'corridor_3-south_2'): 0.01200000000000001},                 
+             {('room_9-north_0', 'storeroom_15-south_0'): 0.18400000000000005},                       
+             {('storeroom_15-north_0', 'room_6-south_0'): 0.18300000000000005},                       
+             {('corridor_3-north_1', 'bathroom_7-south_1'): 0.18300000000000005},                     
+             {('corridor_5-north_0', 'shaft_14-south_0'): 0.18300000000000005},                       
+             {('corridor_3-north_0', 'dining_0-south_0'): 0.010000000000000009},                      
+             {('shaft_14-north_0', 'shaft_1-south_0'): 0.02699999999999969},                          
+             {('bathroom_7-north_0', 'shaft_2-south_0'): 0.16699999999999982},                        
+             {('shaft_1-north_0', 'shaft_2-south_0'): 0.16699999999999982},                           
+             {('shaft_2-north_0', 'shaft_8-south_0'): 0.04800000000000004},                           
+             {('shaft_8-north_0', 'shaft_13-south_0'): 0.04800000000000004},                          
+             {('shaft_13-north_0', 'shaft_4-south_0'): 0.08400000000000052}                           
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('corridor_3-north_0', 'dining_0-south_0'): 0,                                           
+             ('living_room_10-north_0', 'corridor_3-south_2'): 1,                                     
+             ('corridor_3-north_1', 'bathroom_7-south_1'): 2,                                         
+             ('bathroom_7-north_0', 'shaft_2-south_0'): 3,                                            
+             ('shaft_1-north_0', 'shaft_2-south_0'): 4,                                               
+             ('shaft_2-north_0', 'shaft_8-south_0'): 5,                                               
+             ('shaft_8-north_0', 'shaft_13-south_0'): 6,                                              
+             ('shaft_13-north_0', 'shaft_4-south_0'): 7,                                              
+             ('corridor_5-north_0', 'shaft_14-south_0'): 8,                                           
+             ('shaft_14-north_0', 'shaft_1-south_0'): 9,                                              
+             ('balcony_11-north_0', 'room_9-south_0'): 10,                                            
+             ('room_9-north_0', 'storeroom_15-south_0'): 11,                                          
+             ('storeroom_15-north_0', 'room_6-south_0'): 12                                           
+         }                                                                                            

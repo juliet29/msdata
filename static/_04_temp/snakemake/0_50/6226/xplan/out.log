@@ -1,0 +1,14 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('balcony_2-east_0', 'room_0-west_0'): 0.39600000000000035},                            
+             {('kitchen_3-east_0', 'room_0-west_0'): 0.2250000000000001},                             
+             {('corridor_5-east_1', 'room_0-west_0'): 0.18900000000000006},                           
+             {('corridor_5-east_0', 'bathroom_6-west_0'): 0.11299999999999999},                       
+             {('bathroom_6-east_0', 'shaft_4-west_0'): 0.11299999999999999}                           
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('balcony_2-east_0', 'room_0-west_0'): 0,                                                
+             ('kitchen_3-east_0', 'room_0-west_0'): 1,                                                
+             ('corridor_5-east_1', 'room_0-west_0'): 2,                                               
+             ('corridor_5-east_0', 'bathroom_6-west_0'): 3,                                           
+             ('bathroom_6-east_0', 'shaft_4-west_0'): 4                                               
+         }                                                                                            

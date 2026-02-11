@@ -1,0 +1,115 @@
+INFO     ℹ️:polymap.layout.main.move:try_moves:122 | {} | roots=['balcony_2-east_0', 'room_8-east_0',  
+         'bathroom_1-east_0', 'bathroom_1-east_1', 'room_8-east_1', 'corridor_4-east_0',              
+         'room_7-east_0', 'corridor_4-east_1', 'room_3-east_1']                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:BALCONY_2-EAST_0.                                                                       
+         [{('balcony_2-east_0', 'room_7-west_0'): 1.443999999999999}]                                 
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving balcony_2-east_0 by 1.443999999999999
+         to room_7-west_0                                                                             
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | balcony_2 has changed!            
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_8-EAST_0.                                                                          
+         [{('room_8-east_0', 'corridor_4-west_0'): 2.359}]                                            
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_8-east_0 by 2.359 to            
+         corridor_4-west_0                                                                            
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_8 has changed!               
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:BATHROOM_1-EAST_0.                                                                      
+         [{('bathroom_1-east_0', 'room_0-west_0'): 4.0360000000000005}]                               
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving bathroom_1-east_0 by                 
+         4.0360000000000005 to room_0-west_0                                                          
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | bathroom_1 has changed!           
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:BATHROOM_1-EAST_1.                                                                      
+         [                                                                                            
+             {('room_0-west_0', 'bathroom_1-east_1'): -2.420000000000001},                            
+             {('bathroom_1-east_1', 'corridor_4-west_0'): 0.5619999999999994}                         
+         ]                                                                                            
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_0-west_0 by -2.420000000000001  
+         to bathroom_1-east_1                                                                         
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_0 has changed!               
+SUCCESS  ✅:polymap.geometry.modify.validate:validate_layout_overlaps:173 | {} | No overlaps in the   
+         layout                                                                                       
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving bathroom_1-east_1 by                 
+         0.5619999999999994 to corridor_4-west_0                                                      
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | bathroom_1 has changed!           
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between room_7,
+         room_0: 4.387500000000003                                                                    
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['room_7', 'room_0']                                                               
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:ROOM_8-EAST_1.                                                                          
+         [                                                                                            
+             {('corridor_4-west_2', 'room_8-east_1'): -3.0},                                          
+             {('room_8-east_1', 'room_3-west_0'): 1.1680000000000001}                                 
+         ]                                                                                            
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_4-west_2 by -3.0 to         
+         room_8-east_1                                                                                
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_4 has changed!           
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between room_7,
+         room_0: 4.387500000000003                                                                    
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['room_7', 'room_0']                                                               
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving room_8-east_1 by 1.1680000000000001  
+         to room_3-west_0                                                                             
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | room_8 has changed!               
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between room_7,
+         room_0: 4.387500000000003                                                                    
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['room_7', 'room_0']                                                               
+DEBUG    🐞:polymap.layout.main.move:try_moves:127 | {} |                                             
+         root:CORRIDOR_4-EAST_0.                                                                      
+         [{('corridor_4-east_0', 'room_0-west_1'): 3.811}]                                            
+                                                                                                      
+DEBUG    🐞:polymap.layout.main.move:try_moves:134 | {} | Moving corridor_4-east_0 by 3.811 to        
+         room_0-west_1                                                                                
+TRACE    ✏️:polymap.layout.main.move:study_polygon_changes:44 | {} | corridor_4 has changed!           
+DEBUG    🐞:polymap.geometry.modify.validate:overlap_near_zero:122 | {} | overlap area between room_7,
+         room_0: 4.387500000000003                                                                    
+ERROR    ❌:polymap.geometry.modify.validate:message:99 | {} | Invalid layout due to INTERSECTION     
+         involving ['room_7', 'room_0']                                                               
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/utils4plans/geom.py", line 19, in __post_init__
+    assert self.min <= self.max
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/bin/polymap", line 10, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/main.py", line 22, in main
+    app()
+    ~~~^^
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/core.py", line 1869, in __call__
+    result = _run_maybe_async_command(command, bound, resolved_backend)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/cyclopts/_run.py", line 50, in _run_maybe_async_command
+    return command(*bound.args, **bound.kwargs)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/cli/make/main.py", line 94, in move
+    layout = try_moves(Gax)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/layout/main/move.py", line 126, in try_moves
+    curr_graph = get_graph_from_root(layout, Gax.G, root)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/layout/main/move.py", line 91, in get_graph_from_root
+    updated_G = update_deltas()
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/layout/main/move.py", line 79, in update_deltas
+    delta = compute_delta_between_surfs(surf, nb)
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/polymap/layout/main/plan.py", line 16, in compute_delta_between_surfs
+    delta = FancyRange(s1.location, s2.location).size
+            ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 5, in __init__
+  File "/Users/julietnwagwuume-ezeoke/_UILCode/gqe-phd/fpopt/studies2/msd2/.venv/lib/python3.13/site-packages/utils4plans/geom.py", line 21, in __post_init__
+    raise InvalidRangeException(self.min, self.max)
+utils4plans.geom.InvalidRangeException: (-7.09, -8.39)

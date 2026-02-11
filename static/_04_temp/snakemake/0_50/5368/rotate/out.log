@@ -1,0 +1,2 @@
+INFO     ℹ️:polymap.cli.make.main:rotate:42 | {} | angle_degrees=43.50000000000007                     
+INFO     ℹ️:polymap.cli.make.main:rotate:43 | {} | angle_radians=np.float64(0.7592182246175345)        

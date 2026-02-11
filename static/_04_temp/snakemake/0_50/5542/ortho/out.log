@@ -1,0 +1,25 @@
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'corridor_0'} | No non-ortho on      
+         corridor_0                                                                                   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'balcony_1'} | No non-ortho on       
+         balcony_1                                                                                    
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'bathroom_2'} | No non-ortho on      
+         bathroom_2                                                                                   
+                                                                                                      
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:11 | {'name': 'living_room_3'} | Resolving         
+         non-ortho on living_room_3                                                                   
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_3'} | vector to align: 
+         <3.6777384071530124, 0, 0> | result: <3.6777384071530124, 0.0, 0.0>                          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_3'} | vector to align: 
+         <0.005377899339782388, -4.0290950552974305, 0> | result: <0.0, -4.0290950552974305, 0.0>     
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_3'} | vector to align: 
+         <-3.683116306492793, 0, 0> | result: <-3.683116306492793, 0.0, 0.0>                          
+DEBUG    🐞:polymap.nonortho.dot:get_aligned_vector:27 | {'name': 'living_room_3'} | vector to align: 
+         <0, 4.029095055297429, 0> | result: <0.0, 4.029095055297429, 0.0>                            
+INFO     ℹ️:polymap.nonortho.main:orthogonalize_dom:19 | {'name': 'living_room_3'} | Finished resolving
+         non-ortho on living_room_3                                                                   
+                                                                                                      
+TRACE    ✏️:polymap.nonortho.main:orthogonalize_dom:22 | {'name': 'kitchen_4'} | No non-ortho on       
+         kitchen_4                                                                                    
+                                                                                                      

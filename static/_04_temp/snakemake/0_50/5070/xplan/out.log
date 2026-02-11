@@ -1,0 +1,22 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('room_1-east_0', 'corridor_3-west_0'): 0.11699999999999999},                           
+             {('room_1-east_0', 'kitchen_2-west_0'): 0.11199999999999999},                            
+             {('kitchen_2-east_0', 'shaft_5-west_0'): 0.11999999999999988},                           
+             {('kitchen_2-east_0', 'shaft_4-west_0'): 0.11699999999999999},                           
+             {('kitchen_2-east_0', 'bathroom_6-west_0'): 0.11599999999999988},                        
+             {('shaft_4-east_0', 'bathroom_6-west_1'): 0.04400000000000004},                          
+             {('shaft_5-east_0', 'bathroom_6-west_3'): 0.028000000000000025},                         
+             {('corridor_3-east_0', 'room_7-west_0'): 0.125},                                         
+             {('bathroom_6-east_0', 'room_7-west_0'): 0.12300000000000022}                            
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('room_1-east_0', 'corridor_3-west_0'): 0,                                               
+             ('room_1-east_0', 'kitchen_2-west_0'): 1,                                                
+             ('kitchen_2-east_0', 'shaft_5-west_0'): 2,                                               
+             ('kitchen_2-east_0', 'shaft_4-west_0'): 3,                                               
+             ('kitchen_2-east_0', 'bathroom_6-west_0'): 4,                                            
+             ('shaft_4-east_0', 'bathroom_6-west_1'): 5,                                              
+             ('shaft_5-east_0', 'bathroom_6-west_3'): 6,                                              
+             ('corridor_3-east_0', 'room_7-west_0'): 7,                                               
+             ('bathroom_6-east_0', 'room_7-west_0'): 8                                                
+         }                                                                                            

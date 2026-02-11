@@ -1,0 +1,22 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('storeroom_1-north_0', 'corridor_7-south_0'): 0.07699999999999996},                    
+             {('room_3-north_0', 'shaft_8-south_0'): 0.1389999999999998},                             
+             {('shaft_8-north_0', 'bathroom_10-south_0'): 0.04499999999999993},                       
+             {('balcony_2-north_0', 'living_room_5-south_0'): 0.3320000000000001},                    
+             {('corridor_7-north_0', 'living_room_5-south_0'): 0.139},                                
+             {('room_9-north_0', 'living_room_5-south_0'): 0.139},                                    
+             {('bathroom_10-north_0', 'dining_6-south_3'): 0.14900000000000002},                      
+             {('kitchen_4-north_0', 'dining_6-south_1'): 0.11499999999999999},                        
+             {('living_room_5-north_0', 'corridor_0-south_2'): 0.13400000000000034}                   
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('kitchen_4-north_0', 'dining_6-south_1'): 0,                                            
+             ('room_3-north_0', 'shaft_8-south_0'): 1,                                                
+             ('bathroom_10-north_0', 'dining_6-south_3'): 2,                                          
+             ('shaft_8-north_0', 'bathroom_10-south_0'): 3,                                           
+             ('storeroom_1-north_0', 'corridor_7-south_0'): 4,                                        
+             ('corridor_7-north_0', 'living_room_5-south_0'): 5,                                      
+             ('living_room_5-north_0', 'corridor_0-south_2'): 6,                                      
+             ('room_9-north_0', 'living_room_5-south_0'): 7,                                          
+             ('balcony_2-north_0', 'living_room_5-south_0'): 8                                        
+         }                                                                                            

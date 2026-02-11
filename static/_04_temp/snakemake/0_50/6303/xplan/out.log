@@ -1,0 +1,10 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('corridor_4-east_0', 'living_dining_0-west_0'): 0.14700000000000024},                  
+             {('room_2-east_0', 'living_dining_0-west_1'): 0.13600000000000012},                      
+             {('kitchen_1-east_0', 'bathroom_3-west_0'): 0.17300000000000004}                         
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('corridor_4-east_0', 'living_dining_0-west_0'): 0,                                      
+             ('room_2-east_0', 'living_dining_0-west_1'): 1,                                          
+             ('kitchen_1-east_0', 'bathroom_3-west_0'): 2                                             
+         }                                                                                            

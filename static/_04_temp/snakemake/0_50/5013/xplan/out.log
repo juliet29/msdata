@@ -1,0 +1,30 @@
+INFO     ℹ️:polymap.layout.main.plan:summarize_graph_list:89 | {} | [                                  
+             {('kitchen_4-east_0', 'bathroom_10-west_0'): 0.121},                                     
+             {('kitchen_4-east_0', 'shaft_8-west_0'): 0.121},                                         
+             {('bathroom_10-east_1', 'corridor_0-west_0'): 0.9870000000000001},                       
+             {('dining_6-east_1', 'corridor_0-west_1'): 0.01200000000000001},                         
+             {('room_3-east_0', 'corridor_7-west_0'): 0.13500000000000023},                           
+             {('room_3-east_0', 'storeroom_1-west_0'): 0.13500000000000023},                          
+             {('shaft_8-east_0', 'corridor_7-west_0'): 0.13500000000000023},                          
+             {('bathroom_10-east_0', 'corridor_0-west_0'): 0.13500000000000023},                      
+             {('bathroom_10-east_0', 'corridor_7-west_0'): 0.13500000000000023},                      
+             {('storeroom_1-east_0', 'room_9-west_0'): 0.13100000000000023},                          
+             {('corridor_7-east_0', 'room_9-west_0'): 0.13100000000000023},                           
+             {('corridor_0-east_0', 'living_room_5-west_0'): 0.011999999999999567},                   
+             {('room_9-east_0', 'balcony_2-west_0'): 0.3390000000000004}                              
+         ]                                                                                            
+INFO     ℹ️:polymap.layout.viz:collect_node_edges:37 | {} | {                                          
+             ('kitchen_4-east_0', 'bathroom_10-west_0'): 0,                                           
+             ('kitchen_4-east_0', 'shaft_8-west_0'): 1,                                               
+             ('bathroom_10-east_1', 'corridor_0-west_0'): 2,                                          
+             ('dining_6-east_1', 'corridor_0-west_1'): 3,                                             
+             ('room_3-east_0', 'corridor_7-west_0'): 4,                                               
+             ('room_3-east_0', 'storeroom_1-west_0'): 5,                                              
+             ('shaft_8-east_0', 'corridor_7-west_0'): 6,                                              
+             ('bathroom_10-east_0', 'corridor_0-west_0'): 7,                                          
+             ('bathroom_10-east_0', 'corridor_7-west_0'): 8,                                          
+             ('storeroom_1-east_0', 'room_9-west_0'): 9,                                              
+             ('corridor_7-east_0', 'room_9-west_0'): 10,                                              
+             ('corridor_0-east_0', 'living_room_5-west_0'): 11,                                       
+             ('room_9-east_0', 'balcony_2-west_0'): 12                                                
+         }                                                                                            
