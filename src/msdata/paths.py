@@ -11,3 +11,4 @@ class DynamicPaths:
     msd_stats = static_paths.temp / "msd_stats"
     valid_ids_csv = msd_stats / "valid_ids.csv"
     case_data = static_paths.temp / "snakemake/0_50"
+    summary_data = static_paths.temp / "summary/0_50"

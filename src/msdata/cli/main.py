@@ -1,16 +1,12 @@
 from cyclopts import App
 from utils4plans import logconfig
 
+from msdata.access.main import access_one_sample_dataset
 from msdata.paths import DynamicPaths
 
-from loguru import logger
 
-from msdata.summary.main import create_dataframe
+from msdata.summary.main import create_summaries, read_summary, write_summaries
 
-
-# from polyfix.cli.studies.main import studies_app
-
-# TODO: clean up imports to clean up project structure
 
 app = App()
 
@@ -20,23 +16,33 @@ def welcome():
     return "Welcome to msdata"
 
 
-########### --------- BEGIN TESTS ------------
+########### --------- BEGIN HELPER FUNCTIONS ------------
 
 
 @app.command()
-def try_read_plan():
+def read_all_summaries():
     root_path = DynamicPaths.case_data
-    df = create_dataframe(root_path)
+    df = create_summaries(root_path)
     return df
-    # cr = CaseReader(6210, root_path)
-    # res = cr.get_summary()
-    # # res = read_layout_to_simple_layout(path)
-    # # res = read_layout_from_path(path)
-    logger.debug()
-    # logger.debug(res.domains[0].polygon)
 
 
-######### ----------------- END TESTS -----------
+@app.command()
+def write_all_summaries():
+    write_summaries(DynamicPaths.case_data, DynamicPaths.summary_data)
+
+
+@app.command()
+def read_summary_from_json(case: str):
+    return read_summary(DynamicPaths.summary_data / f"{case}.json")
+
+
+@app.command()
+def access_unit(case_num: float = 5013, areas_only: bool = True):
+    res = access_one_sample_dataset(case_num, areas_only=areas_only)
+    return res
+
+
+######### ----------------- END HELPER FUNCTIONS -----------
 
 
 def main():
